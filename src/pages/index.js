@@ -1,10 +1,11 @@
 import * as React from "react"
+import "@fontsource/work-sans/500.css"
 
 // styles
 const pageStyles = {
   color: "#232129",
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontFamily: "Work Sans",
 }
 const headingStyles = {
   marginTop: 0,
