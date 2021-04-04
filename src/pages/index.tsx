@@ -1,10 +1,11 @@
 import * as React from 'react';
 import Layout from '../components/layout';
+import ProjectPreviews from '../components/project-preview';
 
 const IndexPage = (): JSX.Element => {
   return (
     <Layout>
-      <h1>Hello World</h1>
+      <ProjectPreviews />
     </Layout>
   );
 };
