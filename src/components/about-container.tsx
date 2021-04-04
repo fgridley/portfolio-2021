@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { StaticImage } from 'gatsby-plugin-image';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql } from 'gatsby';
 import { primaryBlue } from '../styles/styleConstants';
 
@@ -49,17 +49,23 @@ const AboutContainer = (): JSX.Element => {
   const data = useStaticQuery(graphql`
     query {
       markdownRemark(frontmatter: { title: { eq: "About" } }) {
+        html
         frontmatter {
           header
+          image {
+            childImageSharp {
+              gatsbyImageData(placeholder: DOMINANT_COLOR)
+            }
+          }
         }
-        html
       }
     }
   `);
+  const aboutImage = getImage(data.markdownRemark.frontmatter.image);
   return (
     <AboutSection>
       <AboutImg>
-        <StaticImage src="../data/images/me.jpeg" alt="Fiona in a sunflower field" />
+        <GatsbyImage image={aboutImage} alt="Fiona in a sunflower field" />
       </AboutImg>
       <TextContainer>
         <AboutHeader dangerouslySetInnerHTML={{ __html: data.markdownRemark.frontmatter.header }} />

@@ -1,6 +1,7 @@
 ---
 title: 'About'
 header: 'Hi there!'
+image: '../data/images/me.jpeg'
 ---
 
 I’m Fiona, a senior at Northeastern University studying Computer Science and Graphic Design. My academic and professional motivation originates from my desire to improve the lives of others and protect the environment for future generations. I want to contribute to projects that are mission-driven and aimed at solving environmental issues and social inequalities.
