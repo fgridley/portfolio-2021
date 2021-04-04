@@ -45,7 +45,7 @@ const AboutImg = styled.div`
   }
 `;
 
-const AboutContainer = () => {
+const AboutContainer = (): JSX.Element => {
   const data = useStaticQuery(graphql`
     query {
       markdownRemark(frontmatter: { title: { eq: "About" } }) {

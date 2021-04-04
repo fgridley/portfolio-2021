@@ -5,10 +5,10 @@ import Footer from './footer';
 import GlobalStyle from '../styles/GlobalStyles';
 
 const PageContent = styled.div`
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 110px 1.0875rem 1.45rem;
-`
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 110px 1.0875rem 1.45rem;
+`;
 
 interface Props {
   children: React.ReactNode;

@@ -1,6 +1,6 @@
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import * as React from 'react';
-import HeaderImg from '../data/images/headerImg';
+import Logo from '../data/images/fionaGridleyLogo';
 import styled from 'styled-components';
 
 const HeaderContainer = styled.header`
@@ -54,7 +54,7 @@ const Nav: React.FunctionComponent = () => {
     <HeaderContainer>
       <NavContainer>
         <LogoContainer>
-          <HeaderImg />
+          <Logo />
         </LogoContainer>
         <div>
           <LinkContainer>
