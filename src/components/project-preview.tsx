@@ -141,7 +141,7 @@ const ProjectPreviews = (): JSX.Element => {
               <Number>0{index + 1}.</Number>
               <Name>{project.title}</Name>
               <Date>{project.date}</Date>
-              <p dangerouslySetInnerHTML={{ __html: project.html }} />
+              <div dangerouslySetInnerHTML={{ __html: project.html }} />
             </TextContainer>
             <PreviewImg image={project.image} alt={project.imageAlt} />
           </Project>
