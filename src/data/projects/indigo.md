@@ -1,13 +1,13 @@
 ---
   title: 'Indigo Agriculture'
   date: 'January 2020 - August 2020'
-  image: '../../data/images/indigo-mockup-2.png'
-  imageAlt: 'White reaction diffusion design on blue background'
-  order: 2
+  image: '../../data/images/indigo-mockup.png'
+  imageAlt: 'Phone and laptop mockup of website on blue background'
+  order: 3
 ---
 
-**The challenge:** Redesign Radial Analytics’ marketing website to increase new client engagement, online traction for the company’s mission, and gauge interest in new products.
+**The challenge:** Design and develop data visualization tools to create actionable insights from Indigo's immense about of agricultural and geospatial data.
 
-**The Solution:** A speedy new website built using React and MaterialUI to convey the most important information about Radial Analytics and their revolutionary products.
+**The Solution:** A crop profitability tool, a buyer blacklisting service, a service area optimization tool, and geospatial agricultural health visualization web app. Designed in Figma and built with React, Vue, and Python Flask.
 
-[Check out the live site >>](https://www.radialanalytics.com)
+Case study coming soon (April 2021)

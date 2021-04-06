@@ -3,7 +3,7 @@
   date: 'February 2019 - March 2019'
   image: '../../data/images/radial-mockup.png'
   imageAlt: 'Mockup of Radial Analytics website'
-  order: 3
+  order: 4
 ---
 
 **The challenge:** Redesign Radial Analytics’ marketing website to increase new client engagement, online traction for the company’s mission, and gauge interest in new products.

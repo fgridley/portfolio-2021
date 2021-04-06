@@ -1,13 +1,13 @@
 ---
   title: 'The Art of Generation'
   date: 'September 2020 - Present'
-  image: '../../data/images/sandbox-mockup.png'
-  imageAlt: 'White reaction diffusion design on blue background'
+  image: '../../data/images/art-of-generation-mockup.png'
+  imageAlt: 'Book mockup on blue background'
   order: 1
 ---
 
-**The challenge:** Redesign Radial Analytics’ marketing website to increase new client engagement, online traction for the company’s mission, and gauge interest in new products.
+**The challenge:** Create a resource for intermediate design-oriented developers who want to take their creative coding projects to the next level.
 
-**The Solution:** A speedy new website built using React and MaterialUI to convey the most important information about Radial Analytics and their revolutionary products.
+**The Solution:** A website and book (eventually) to document the process of making physical art pieces from digital generative designs. It will serve as both a technical resource for creative coders and artistic inspiration for analog artists.
 
-[Check out the live site >>](https://www.radialanalytics.com)
+Website coming soon (April 2021)
