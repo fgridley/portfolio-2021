@@ -47,7 +47,8 @@ const Name = styled.h2`
 const Date = styled.h3`
   font-weight: 400;
   opacity: 0.5;
-  margin-top: 5px;
+  margin-top: -9px;
+  font-size: 15px;
 `;
 
 const Separator = styled.div`
