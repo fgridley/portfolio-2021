@@ -3,7 +3,10 @@ module.exports = {
     DEV_SSR: false,
   },
   siteMetadata: {
-    title: "Fiona Gridley's Portfolio",
+    title: "Fiona Gridley's Portfolio Website",
+    titleTemplate: '%s · Fiona Gridley',
+    description: "Portfolio of Fiona's design and development work.",
+    url: 'https://www.fionagridley.com', // No trailing slash allowed!
   },
   plugins: [
     'gatsby-plugin-styled-components',
@@ -11,9 +14,15 @@ module.exports = {
     'gatsby-plugin-image',
     'gatsby-plugin-mdx',
     'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    
     'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-transformer-sharp',
+      options: {
+        icon: './src/data/images/favicon.ico',
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

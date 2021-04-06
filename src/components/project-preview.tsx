@@ -1,4 +1,3 @@
-// import { Link } from "gatsby"
 import * as React from 'react';
 import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import styled from 'styled-components';
